@@ -19,7 +19,7 @@ const Page = () => {
 
         <Container>
 
-            <Box borderRadius="lg" bg="grey" mt={6} p={3} mb={6} align="center">
+            <Box borderRadius="lg" bg="grey" mt={10} p={3} mb={6} align="center">
                 Hello, I am a Software Developer based in the US!
             </Box>
             <Box display={{ md: 'flex' }}>

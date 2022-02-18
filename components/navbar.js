@@ -46,12 +46,13 @@ const NavBar = props => {
       as="nav"
       w="100%"
       bg={useColorModeValue('#ffffff40', '#20202380')}
-      css={{ backdropFilter: 'blur(10px)' }}
+      css={{ backdropFilter: 'blur(5px)' }}
       zIndex={1}
       {...props}
     >
       <Container
         display="flex"
+        mb={0}
         p={2}
         maxW="container.md"
         wrap="wrap"
@@ -117,7 +118,7 @@ const NavBar = props => {
                   as={Link}
                   href="https://github.com/suahmadi"
                 >
-                  View Source
+                  Github
                 </MenuItem>
               </MenuList>
             </Menu>
