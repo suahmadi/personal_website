@@ -36,5 +36,7 @@ const Loader = () => {
 }
 
 Loader.displayName = 'Loader';
+EarthContainer.displayName = 'EarthContainer';
+EarthSpinner.displayName = 'EarthSpinner';
 
 export default Loader
