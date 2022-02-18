@@ -42,7 +42,7 @@ const Education = () => {
                 </Box>
                 <Section delay={0.2}>
                     <Heading as="h3" variant="section-title">
-                        Relevant Courses
+                        RELEVANT COURSES
                     </Heading>
                     <Paragraph>
                         <Link
@@ -71,7 +71,7 @@ const Education = () => {
                         <br></br>
                         <Link
                             href="https://www.cs.purdue.edu/academic-programs/courses/canonical/cs180.html" scroll={false}>
-                            - Problem Solving and Object Oriented Programming
+                            - Problem Solving and O-O Programming
                         </Link>
                         <br></br>
                         <Link
