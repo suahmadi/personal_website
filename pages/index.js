@@ -1,5 +1,5 @@
 import { Container } from "@chakra-ui/react";
-import {Box, Heading, Image, Button} from '@chakra-ui/react'
+import { Box, Heading, Image, Button } from '@chakra-ui/react'
 import Section from "../components/section";
 import Paragraph from "../components/paragraph";
 import NextLink from 'next/link'
@@ -18,117 +18,117 @@ import { GridItem } from "../components/grid-item";
 
 const Page = () => {
 
-  return (
+    return (
 
-      <Container>
+        <Container>
 
-          <Box borderRadius="lg" bg="grey" mt={6} p={3} mb={6} align="center">
-              Hello, i'm a Software Developer based in the US!
-              </Box>
-              <Box display={{ md: 'flex'}}>
+            <Box borderRadius="lg" bg="grey" mt={6} p={3} mb={6} align="center">
+                Hello, i'm a Software Developer based in the US!
+            </Box>
+            <Box display={{ md: 'flex' }}>
                 <Box flexGrow={1}>
                     <Heading as="h2" variant="page-title">
                         Sultan Alahmadi
-                    </Heading>    
-                    <p> Student at Purdue University (Aspiring Software Engineer)</p>  
-            </Box>
-            <Box flexShrink={0}
-                mt={{ base:4, md: 0}}
-                ml={{ md: 6}}
-                align="center"
-            >
-                
-            
-                
-   
-            </Box>
-            
-            
+                    </Heading>
+                    <p> Student at Purdue University (Aspiring Software Engineer)</p>
+                </Box>
+                <Box flexShrink={0}
+                    mt={{ base: 4, md: 0 }}
+                    ml={{ md: 6 }}
+                    align="center"
+                >
+
+
+
+
+                </Box>
+
+
             </Box>
             <Section delay={0.1}>
-        <Heading as="h3" variant="section-title">
-          About me
-        </Heading>
-        <Paragraph>
-        I am an undergraduate student in my senior year at Purdue University in West Lafayette, Indiana. I am currently studying Computer Science with a concentration in Software Engineering.
-        
+                <Heading as="h3" variant="section-title">
+                    About me
+                </Heading>
+                <Paragraph>
+                    I am an undergraduate student in my senior year at Purdue University in West Lafayette, Indiana. I am currently studying Computer Science with a concentration in Software Engineering.
 
-        </Paragraph>
 
-        <Heading as="h3" variant="section-title">
-          Past Projects
-        </Heading>
-<Paragraph p={0}>
-    
-- <b>Jungle</b>, an app that makes finding events on campus easier by offering tinder-style swiping
-<br></br>
-- <b>UNIX Shell Implementation</b> (using C/C++ and lex and Yacc)
-<br></br>
-- <b>Covid Restrictions Tracker</b>, a website that helps with planning out international travel during COVID 19 pandemic restrictions.
-<br></br>
-- <b> a simple HTTP web server </b>, built from scratch.
+                </Paragraph>
 
-</Paragraph>
+                <Heading as="h3" variant="section-title">
+                    Past Projects
+                </Heading>
+                <Paragraph p={0}>
 
-<Heading as="h3" variant="section-title">
-          Currently Working on:
-        </Heading>
-<Paragraph>
+                    - <b>Jungle</b>, an app that makes finding events on campus easier by offering tinder-style swiping
+                    <br></br>
+                    - <b>UNIX Shell Implementation</b> (using C/C++ and lex and Yacc)
+                    <br></br>
+                    - <b>Covid Restrictions Tracker</b>, a website that helps with planning out international travel during COVID 19 pandemic restrictions.
+                    <br></br>
+                    - <b> a simple HTTP web server </b>, built from scratch.
 
-- <b>CryptoArchive </b>, an all-in-one addresses explorer solution for cryptocurrency wallet addresses across blockchains. 
-<br></br>
-- <b>Garage-market </b>, an e-commerce website similar in nature to eBay, but focused on the middle-east.
-</Paragraph>
-       
-      </Section>
-      <Section delay={0.3}>
-        <Heading as="h3" variant="section-title">
-          On the web
-        </Heading>
-        <List>
-          <ListItem>
-            <Link href="https://github.com/suahmadi" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<Icon as={IoLogoGithub} />}
-              >
-                Github
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
-            <Link href="https://linkedin.com/in/sultan-a-7881a4141" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<Icon as={IoLogoLinkedin} />}
-              >
-                LinkedIn
-              </Button>
-            </Link>
-          </ListItem>
-          
-        </List>
+                </Paragraph>
 
-       
+                <Heading as="h3" variant="section-title">
+                    Currently Working on:
+                </Heading>
+                <Paragraph>
 
-        <Box align="center" my={4}>
-        <NextLink href="/projects" scroll={false}>
-        <Button rightIcon={<ChevronRightIcon />} colorScheme="teal" mr={2}>
-              Projects
-            </Button>
-            </NextLink>
-            
-          <NextLink href="/education" scroll={false}>
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              Education
-            </Button>
-          </NextLink>
-        </Box>
-      </Section>
-    </Container>
-  )
+                    - <b>CryptoArchive </b>, an all-in-one addresses explorer solution for cryptocurrency wallet addresses across blockchains.
+                    <br></br>
+                    - <b>Garage-market </b>, an e-commerce website similar in nature to eBay, but focused on the middle-east.
+                </Paragraph>
+
+            </Section>
+            <Section delay={0.3}>
+                <Heading as="h3" variant="section-title">
+                    On the web
+                </Heading>
+                <List>
+                    <ListItem>
+                        <Link href="https://github.com/suahmadi" target="_blank">
+                            <Button
+                                variant="ghost"
+                                colorScheme="teal"
+                                leftIcon={<Icon as={IoLogoGithub} />}
+                            >
+                                Github
+                            </Button>
+                        </Link>
+                    </ListItem>
+                    <ListItem>
+                        <Link href="https://linkedin.com/in/sultan-a-7881a4141" target="_blank">
+                            <Button
+                                variant="ghost"
+                                colorScheme="teal"
+                                leftIcon={<Icon as={IoLogoLinkedin} />}
+                            >
+                                LinkedIn
+                            </Button>
+                        </Link>
+                    </ListItem>
+
+                </List>
+
+
+
+                <Box align="center" my={4}>
+                    <NextLink href="/projects" scroll={false}>
+                        <Button rightIcon={<ChevronRightIcon />} colorScheme="teal" mr={2}>
+                            Projects
+                        </Button>
+                    </NextLink>
+
+                    <NextLink href="/education" scroll={false}>
+                        <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+                            Education
+                        </Button>
+                    </NextLink>
+                </Box>
+            </Section>
+        </Container>
+    )
 
 }
 export default Page;
