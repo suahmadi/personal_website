@@ -1,5 +1,5 @@
 import { Container } from "@chakra-ui/react";
-import { Box, Heading, Image, Button } from '@chakra-ui/react'
+import { Box, Heading, Button } from '@chakra-ui/react'
 import Section from "../components/section";
 import Paragraph from "../components/paragraph";
 import NextLink from 'next/link'
