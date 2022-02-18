@@ -8,10 +8,7 @@ import { List, ListItem } from "@chakra-ui/react";
 import Link from "next/link";
 import { Icon } from "@chakra-ui/react";
 import { IoLogoGithub, IoLogoLinkedin } from "react-icons/io5";
-import thumbJungle from '../public/images/works/jungle-final.png'
-import thumbShell from '../public/images/works/shell.jpeg'
-import { SimpleGrid } from "@chakra-ui/react";
-import { GridItem } from "../components/grid-item";
+
 
 
 

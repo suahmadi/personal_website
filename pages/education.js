@@ -1,9 +1,7 @@
-import { ColorModeProvider, Container } from "@chakra-ui/react";
+import {Container } from "@chakra-ui/react";
 import { Box, Heading, Image, Button } from '@chakra-ui/react'
 import Section from "../components/section";
 import Paragraph from "../components/paragraph";
-import NextLink from 'next/link'
-import { ChevronRightIcon } from "@chakra-ui/icons";
 import Link from "next/link";
 import Layout from "../components/layouts/article";
 
