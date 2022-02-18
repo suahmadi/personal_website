@@ -1,5 +1,4 @@
 import { useState, useEffect, useRef, useCallback } from 'react'
-import { render } from 'react-dom'
 import * as THREE from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 import { loadGLTFModel } from '../lib/model'
@@ -133,5 +132,7 @@ const EarthGlobe = () => {
     <EarthContainer ref={refContainer}>{loading && <EarthSpinner />}</EarthContainer>
   )
 }
+
+EarthGlobe.displayName = 'EarthGlobe';
 
 export default EarthGlobe
