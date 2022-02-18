@@ -20,7 +20,7 @@ const Page = () => {
         <Container>
 
             <Box borderRadius="lg" bg="grey" mt={6} p={3} mb={6} align="center">
-                Hello, i'm a Software Developer based in the US!
+                Hello, I am a Software Developer based in the US!
             </Box>
             <Box display={{ md: 'flex' }}>
                 <Box flexGrow={1}>
