@@ -86,7 +86,7 @@ const Education = () => {
                     </Paragraph>
 
                     <Heading as="h3" variant="section-title">
-                        PROGRAMMING LANGUAGES AND TOOLS
+                        LANGUAGES AND TOOLS
                     </Heading>
 
 
