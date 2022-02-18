@@ -113,7 +113,7 @@ const Education = () => {
                             ml={5}
                             display="inline-block"
                             alt="Java Script"
-                            src="/images/java-script.png" />
+                            src="/images/java-script.PNG" />
                         <Image
                             borderColor="whiteAlpha.800"
                             borderStyle="solid"
