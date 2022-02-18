@@ -134,5 +134,4 @@ const EarthGlobe = () => {
 }
 
 EarthGlobe.displayName = 'EarthGlobe';
-
 export default EarthGlobe
