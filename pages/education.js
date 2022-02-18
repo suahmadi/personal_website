@@ -104,7 +104,7 @@ const Education = () => {
                             ml={2}
                             display="inline-block"
                             alt="C"
-                            src="/images/c-programming.PNG" />
+                            src="/images/c-programming.png" />
                         <Image
                             borderColor="whiteAlpha.800"
                             borderStyle="solid"
@@ -113,7 +113,7 @@ const Education = () => {
                             ml={5}
                             display="inline-block"
                             alt="Java Script"
-                            src="/images/java-script.PNG" />
+                            src="/images/java-script.png" />
                         <Image
                             borderColor="whiteAlpha.800"
                             borderStyle="solid"
@@ -122,7 +122,7 @@ const Education = () => {
                             ml={2}
                             display="inline-block"
                             alt="python"
-                            src="/images/python-logo.PNG" />
+                            src="/images/python-logo.png" />
                         <Image
                             borderColor="whiteAlpha.800"
                             borderStyle="solid"
@@ -130,7 +130,7 @@ const Education = () => {
                             ml={2}
                             display="inline-block"
                             alt="Java"
-                            src="/images/java-logo.PNG" />
+                            src="/images/java-logo.png" />
                         <Image
                             borderColor="whiteAlpha.800"
                             borderStyle="solid"
@@ -138,7 +138,7 @@ const Education = () => {
                             ml={2}
                             display="inline-block"
                             alt="React"
-                            src="/images/react-logo-final.PNG" />
+                            src="/images/react-logo-final.png" />
                         <Image
                             borderColor="whiteAlpha.800"
                             borderStyle="solid"
@@ -146,7 +146,7 @@ const Education = () => {
                             maxWidth="90px"
                             display="inline-block"
                             alt="C++"
-                            src="/images/C++LOGO.PNG" />
+                            src="/images/C++LOGO.png" />
 
                         <Image
                             borderColor="whiteAlpha.800"
@@ -155,7 +155,7 @@ const Education = () => {
                             maxWidth="90px"
                             display="inline-block"
                             alt="SQL"
-                            src="/images/sql-logo-final.PNG" />
+                            src="/images/sql-logo-final.png" />
 
                         <Image
                             borderColor="whiteAlpha.800"
@@ -164,7 +164,7 @@ const Education = () => {
                             maxWidth="90px"
                             display="inline-block"
                             alt="FireBase"
-                            src="/images/firebase-logo.PNG" />
+                            src="/images/firebase-logo.png" />
 
 
                         <Image
@@ -174,7 +174,7 @@ const Education = () => {
                             maxWidth="85px"
                             display="inline-block"
                             alt="Node JS"
-                            src="/images/nodeJS-logo.PNG" />
+                            src="/images/nodeJS-logo.png" />
 
                         <Image
                             borderColor="whiteAlpha.800"
@@ -183,7 +183,7 @@ const Education = () => {
                             maxWidth="90px"
                             display="inline-block"
                             alt="Next JS"
-                            src="/images/nextJS-logo.PNG" />
+                            src="/images/nextJS-logo.png" />
 
 
                     </Box>
