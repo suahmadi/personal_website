@@ -56,11 +56,12 @@ const EarthGlobe = () => {
       // 640 -> 240
       // 8   -> 6
       const scale = scH * 0.25 + 4.8
+      // controls for the mouse movement +, -, -, + = normal 
       const camera = new THREE.OrthographicCamera(
-        -scale,
-        scale,
         scale,
         -scale,
+        -scale,
+        scale,
         0.05,
         50000
       )
